@@ -20,6 +20,9 @@
   height: 180px;
   border-radius: 30px;
 }
+.picture-div {
+  margin: 0;
+}
 .programer-name {
   font-size: 1.5rem;
 }
@@ -46,4 +49,10 @@
 .div-background-image {
   background-image: url("http://www.alligatorsailingteam.com/sites/default/files/users/user6/NIK_0039.JPG");
   background-color: red;
+}
+@media screen and (min-width: 768px) {
+  .card-list-side-bar li {
+    padding: 0;
+    font-size: 0.8rem;
+  }
 }
