@@ -1,0 +1,49 @@
+.section-one {
+  margin-top: 100px;
+  background-color: #ff8888;
+  height: 15vh;
+}
+.title-header {
+  font-size: 1.5rem;
+  color: white;
+}
+.senior-developer {
+  height: 100%;
+}
+/* main */
+.section-container {
+  height: 100%;
+}
+.div-background-image {
+  display: relative;
+  bottom: 40px;
+  height: 180px;
+  border-radius: 30px;
+}
+.programer-name {
+  font-size: 1.5rem;
+}
+.card-list {
+  padding-left: 10px;
+  list-style: none;
+}
+.card-text-padding {
+  margin-left: 22.5px;
+}
+.card > .card-header {
+  background-color: #6f42c1;
+  color: white;
+}
+.card-header:first-child {
+  border-radius: 20px 20px 0px 0px;
+}
+.card-list span {
+  padding: 1px 20px 1px 20px;
+  border-radius: 20px;
+  background-color: #ff8888;
+  color: white;
+}
+.div-background-image {
+  background-image: url("http://www.alligatorsailingteam.com/sites/default/files/users/user6/NIK_0039.JPG");
+  background-color: red;
+}
