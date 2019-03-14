@@ -1,0 +1,12 @@
+.section-one {
+  margin-top: 90px;
+}
+img {
+  width: inherit;
+}
+.first-group {
+  background-image: url("../images/backgroundIMG2.jpg");
+  /* background-color: red; */
+  background-position: center right;
+  height: 40vh;
+}
