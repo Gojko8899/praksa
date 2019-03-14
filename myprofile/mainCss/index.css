@@ -1,7 +1,7 @@
 .section-one {
-  margin-top: 100px;
+  margin-top: 80px;
   background-color: #ff8888;
-  height: 15vh;
+  height: 25vh;
 }
 .title-header {
   font-size: 1.5rem;
@@ -17,7 +17,7 @@
 .div-background-image {
   display: relative;
   bottom: 40px;
-  height: 180px;
+  height: 15vh;
   border-radius: 30px;
 }
 .picture-div {
@@ -49,10 +49,21 @@
 .div-background-image {
   background-image: url("http://www.alligatorsailingteam.com/sites/default/files/users/user6/NIK_0039.JPG");
   background-color: red;
+  background-size: cover;
 }
 @media screen and (min-width: 768px) {
   .card-list-side-bar li {
     padding: 0;
     font-size: 0.8rem;
+  }
+}
+/* @media screen and (min-width: 1024px) {
+  .div-background-image {
+    min-height: 240px;
+  }
+} */
+@media screen and (max-width: 767px) {
+  .margin {
+    margin: 0;
   }
 }
