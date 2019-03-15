@@ -1,12 +1,31 @@
+/* main */
 .section-one {
   margin-top: 90px;
+}
+.second-group {
+  margin-top: 11vh;
+  background-image: url("../images/backgroundIMG.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 30% 100%;
+}
+.third-group {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+.fourth-group h2 {
+  text-align: center;
 }
 img {
   width: inherit;
 }
-.first-group {
+
+.text {
+  color: #2d24a3;
+}
+
+.background-container {
   background-image: url("../images/backgroundIMG2.jpg");
-  /* background-color: red; */
-  background-position: center right;
-  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
