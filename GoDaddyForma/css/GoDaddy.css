@@ -1,0 +1,44 @@
+/* main */
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+.has-search {
+  box-shadow: 3px 3px 2px lightgray;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.main {
+  margin-top: 70px;
+}
+
+.myList {
+  list-style: none;
+  padding-left: 10px;
+}
+.li-text {
+  border-radius: 5px;
+  padding: 10px 12px 10px 12px;
+  background-color: #ff8888;
+  color: white;
+  box-shadow: 3px 3px 2px lightgray;
+}
+.form-check-label {
+  font-size: 0.8rem;
+}
+@media (min-width: 760px) {
+  .myList li {
+    font-size: 0.6rem;
+  }
+}
+/* .myList li {
+  font-size: inherit;
+} */

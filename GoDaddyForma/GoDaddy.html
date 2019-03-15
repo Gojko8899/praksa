@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GoDaddy</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    />
+    <link rel="stylesheet" href="../GoDaddyForma/css/jelena.css" />
+    <link rel="stylesheet" href="../GoDaddyForma/css/GoDaddy.css" />
+  </head>
+  <body>
+    <header class="header-top">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand">
+          <img src="images/itpolovi_logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto nav-main">
+            <li class="nav-item">
+              <a class="nav-link" href="find-consultant.html"
+                >Nadji konsultanta
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="find-jobs.html">Nadji posao</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="find-project.html">Nadji projekat</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Kako radi
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="consultant.html">Consultant</a>
+                <a class="dropdown-item" href="client.html">Vendor/client</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">Pitanja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="#"
+                id="navbarDropdown2"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Jezik
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">
+                  <img src="img/en.png" alt="English" />
+                </a>
+                <a class="dropdown-item" href="#">
+                  <img src="img/sr.png" alt="Serbian" />
+                </a>
+              </div>
+            </li>
+            <li class="nav-item log-nav">
+              <a
+                class="nav-link"
+                href="login.html"
+                data-toggle="modal"
+                data-target="#myModal"
+                >Prijava</a
+              >
+            </li>
+            <li class="nav-item log-nav" id="registration2">
+              <a
+                class="nav-link"
+                href="sign-up.html"
+                data-toggle="modal"
+                data-target="#myModal"
+                >Registracija</a
+              >
+            </li>
+            <li>
+              <a href="#" class="importCv">Ubaci svoj CV</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-xs-12 col-md-9 mb-2">
+            <div class="form-group has-search">
+              <span class="fa fa-search form-control-feedback "></span>
+              <input type="text" class="form-control" placeholder="Search" />
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-9">
+            <ul class="myList d-flex m-0">
+              <li class="mr-3 p-0 ">
+                <span class="li-text"> Web Developer</span>
+              </li>
+              <li class="mr-3 p-0">
+                <span class="li-text"> Java Script</span>
+              </li>
+              <li class="mr-3 p-0"><span class="li-text"> React.js </span></li>
+              <li class="mr-3 p-0"><span class="li-text"> Projekat </span></li>
+            </ul>
+            <hr class="mt-4" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 ml-4">
+            <span>Tip placanja:</span>
+          </div>
+          <div class="col-xs-12 ml-3">
+            <div class="form-check form-check-inline">
+                <label class="form-check-label mr-2" for="inlineRadio1"> Sva</label>
+              <input
+                class="form-check-input m-0"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+                checked
+              />
+              
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label mr-2" for="inlineRadio2">Po satu</label>
+              <input
+                class="form-check-input m-0"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+                
+              />
+             
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label mr-2" for="inlineRadio3">Puno vreme</label>
+              <input
+                class="form-check-input m-0"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio3"
+                value="option3"
+                
+              />
+              
+            </div>
+            <div class="form-check form-check-inline">
+                    <label class="form-check-label mr-2" for="inlineRadio3">Puno vreme</label>
+                  <input
+                    class="form-check-input m-0"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio3"
+                    value="option3"
+                    
+                  />
+                  
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row footer-row">
+          <div class="footer-col">
+            <ul>
+              <li><h6>Za one koje traze posao</h6></li>
+              <li>Nadji posao</li>
+              <li>Ubaci rezime</li>
+              <li>Visina zeljene plate</li>
+              <li>Site Map</li>
+              <li>Pomoc</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><h6>Za one koje nude posao</h6></li>
+              <li>Objavi oglas</li>
+              <li>Pretrazi kandidate</li>
+              <li>Site Map</li>
+              <li>Pomoc</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><h6>O nama</h6></li>
+              <li>O IT poslovima</li>
+              <li>Radi sa nama</li>
+              <li>Postani saradnik</li>
+              <li>IT poslovi internationl</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><h6>Korisni linkovi</h6></li>
+              <li>Kontakt</li>
+              <li>Pravila koriscenja</li>
+              <li>AdChoices</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><h6>Nadji posao</h6></li>
+              <li>US Jobs</li>
+              <li>Canada Jobs</li>
+              <li>UK Jobs</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="social-net">
+            <li>
+              <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+            <li><i class="fab fa-twitter fa-2x"></i></li>
+            <li><i class="fab fa-facebook-f fa-2x"></i></li>
+          </ul>
+        </div>
+        <div class="row copyright">
+          <p>Copyright 2018 ITPoslovi / Sva prava zadrzana</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
